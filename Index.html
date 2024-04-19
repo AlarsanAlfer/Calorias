@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>CALCULO CALORIAS DIARIAS</legend>
+        <form action="calculo.php" method="post" target="blank">
+            <P>Introduce tu peso: <input type="text" name="peso"></P>
+            <p>Selecciona tu actividad fisica diaria:
+                 <select name="actividad" id="actividad">
+                    <option value="Sedentario">Sedentario</option>
+                    <option value="Moderado/activo">Moderado/activo</option>
+                    <option value="Muy activo">Muy activo</option>
+                 </select>
+            </p>
+            <p>Selecciona tu objetivo: 
+                <select name="objetivo" id="objetivo">
+                    <option value="Rebajar">Rebajar</option>
+                    <option value="Mantener">Mantener</option>
+                    <option value="Aumentar">Aumentar</option>
+                </select>
+            </p>
+            <p>Selecciona tu biotipo: 
+                <select name="biotipo" id="biotipo">
+                    <option value="Ectomorfo">Ectomorfo</option>
+                    <option value="Mesomorfo">Mesomorfo</option>
+                    <option value="Endomorfo">Endomorfo</option>
+                </select>
+            </p>
+            <input type="submit" name="calculo.php" value="Calcular">
+        </form>
+
+    </fieldset>
+
+</body>
+</html>
